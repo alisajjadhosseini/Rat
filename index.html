@@ -3,53 +3,89 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>دانلود اپلیکیشن</title>
+<title>دانلود AirMasif</title>
+
 <style>
 body{
     margin:0;
-    font-family:sans-serif;
-    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    font-family:Tahoma, sans-serif;
+    background: linear-gradient(135deg,#141e30,#243b55);
     color:white;
     text-align:center;
 }
+
+.container{
+    padding:40px 15px;
+}
+
 .card{
     background:white;
     color:#333;
-    width:90%;
-    max-width:400px;
-    margin:100px auto;
+    max-width:420px;
+    margin:60px auto;
     padding:30px;
     border-radius:20px;
-    box-shadow:0 10px 40px rgba(0,0,0,0.4);
+    box-shadow:0 15px 40px rgba(0,0,0,0.4);
 }
-button{
-    background:#2c5364;
-    color:white;
-    border:none;
-    padding:15px 30px;
-    font-size:18px;
-    border-radius:10px;
-    cursor:pointer;
+
+h1{
+    margin-top:0;
 }
-button:hover{
-    opacity:0.9;
-}
+
 .version{
     color:gray;
     font-size:14px;
 }
+
+button{
+    background:#243b55;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    font-size:18px;
+    border-radius:12px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#141e30;
+}
+
+.footer{
+    margin-top:30px;
+    font-size:12px;
+    color:#ccc;
+}
 </style>
 </head>
+
 <body>
 
-<div class="card">
-    <h2>📱 نام اپلیکیشن شما</h2>
-    <p>توضیح کوتاه درباره اپلیکیشن اینجا نوشته می‌شود.</p>
-    <p class="version">نسخه 1.0.0</p>
-    <br>
-    <a href="app.apk" download>
-        <button>⬇ دانلود مستقیم</button>
-    </a>
+<div class="container">
+
+    <div class="card">
+        <h1>📱 AirMasif</h1>
+        <p>نسخه رسمی اپلیکیشن AirMasif</p>
+        <p class="version">Version 1.0.0</p>
+
+        <br>
+
+        <a href="AirMasif.apk" download>
+            <button>⬇ دانلود مستقیم</button>
+        </a>
+
+        <br><br>
+
+        <p style="font-size:12px;color:gray;">
+        در صورت نمایش هشدار امنیتی، گزینه Install Anyway را انتخاب کنید.
+        </p>
+    </div>
+
+    <div class="footer">
+        © 2026 AirMasif
+    </div>
+
 </div>
 
 </body>
